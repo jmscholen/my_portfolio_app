@@ -1,0 +1,141 @@
+{
+  "bio": {
+    "firstName": "Jeff",
+    "lastName": "Scholen",
+    "email": {
+      "personal": "jmscholen@gmail.com"
+    },
+    "phone": {
+      "personal": "(404) 295-6995"
+    },
+    "summary": "I am a recent graduate of the Iron Yard’s 12 week full time Rails Engineering Bootcamp. My core competencies are Ruby on Rails, Postgresql, jQuery, HTML5, CSS3 and other related technologies. I have experience with RSpec and Test Driven Development. Prior to this, I had been working in engineering related roles in the manufacturing industry.",
+    "location": {
+      "city": "Atlanta",
+      "countryCode": "US",
+      "state": "Georgia"
+    },
+    "websites": {
+      "blog": "http://jeffscholen.com"
+    },
+    "profiles": {
+      "github": "jmscholen",
+      "twitter": "jmscholen"
+    }
+  },
+  "experience": [
+    {
+      "company": "The Iron Yard",
+      "position": "Rails Engineering Student",
+      "website": "http://theironyard.com",
+      "startDate": "2014-3-31",
+      "endDate": "2014-6-20",
+      "summary": "I am a recent graduate of the Iron Yard’s 12 week full time Rails Engineering Bootcamp. My core competencies are Ruby on Rails, Postgresql, jQuery, HTML5, CSS3 and other related technologies. I have experience with RSpec and Test Driven Development. Prior to this, I had been working in engineering related roles in the manufacturing industry. "
+    }
+  ],
+  "work": [
+    {
+      "company": "Remington Medical Inc.",
+      "position": "Engineering Project Manager",
+      "website": "http://remingtonmedical.com",
+      "startDate": "2012-02-12",
+      "endDate": "2013-12-10",
+      "summary": "Managed the development of medical devices. Responsible for the direction to a small team of enigneers.",
+      "highlights": [
+        "Led a team of department stakeholders and engineers to receipt of clearance to market a medical device from the FDA.",
+        "Led a team to prove the viablity of a new technology platform for assembly of hyperdermic needles.",
+        "Successully reduced the cost of an existing product line by 30%."
+      ]
+    },
+
+     {
+      "company": "CardioMEMS Inc.",
+      "position": "Senior Quality Engineer",
+      "website": "http://cardiomems.com",
+      "startDate": "2010-12-10",
+      "endDate": "2012-01-20",
+      "summary": "Managed the quality system requirements for class II and III medical devices.",
+      "highlights": [
+        "Technical lead engineer responsible for compliance across all departments for meeting FDA and ISO requirements",
+        "Successfuly managed external audits for complaince to quality system compliance"
+        
+      ]
+    },
+
+     {
+      "company": "Facet Technologies Inc",
+      "position": "R&D Project Manager",
+      "website": "http://facettechnologies.com",
+      "startDate": "2004-03-20",
+      "endDate": "2007-06-30",
+      "summary": "Managed the development of OEM medical devices.",
+      "highlights": [
+        "Technical manager responsible leading teams to design and transfer medical devices to manufacturing.",
+        "Recognized for assisting the Sales and Marketing group with acquiring an $8 million contract",
+        "Recognized for saving the company over $100,000 for sourcing needs thru ebay.com"
+        
+      ]
+    },
+
+     {
+      "company": "Lucent Technologies Inc",
+      "position": "Mechnical Designer",
+      "website": "http://lucent.com",
+      "startDate": "2000-10-20",
+      "endDate": "2003-01-06",
+      "summary": "Responsible for CAD design and modeling of next generation manufucaturing processes for the research and development group.",
+      "highlights": [
+        "Recognized for introducing a novel manufacturing process to supply fiber optics bundles into a larger nested cabling system."
+
+        
+      ]
+    }    
+  ],
+
+  "education": [
+    {
+      "institution": "Southern Polytechnic State University",
+      "startDate": "1994",
+      "endDate": "1996",
+      "area": "Mechanical Engineering Technology",
+      "studyType": "Bachelor of Science"
+
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Mid-Level",
+      "keywords": [
+        "Ruby on Rails",
+        "Postgresql",
+        "RSpec",
+        "TDD",
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Interpersonal",
+      "level": "Master",
+      "keywords": [
+        "",
+        "Optimistic",
+        "Calm",
+        "Reasonable",
+        "Speaks Effectively"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "The Iron Yard",
+      "reference": "Please contact Sarah Ladato."
+    },
+    {
+      "name": "",
+      "reference": "Additional references available upon request."
+    }
+  ]
+}

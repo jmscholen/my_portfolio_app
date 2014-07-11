@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Welcome To My Portfolio - Jeff Scholen</title>
+<!--     <link rel="icon" type="image/png" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Bootstrap -->
+	<!-- <link href="stylesheet/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="css/style.css" rel="stylesheet" media="screen"> -->
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false %>
+ 	<%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
+  	<%= csrf_meta_tags %>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+       <%= javascript_include_tag 'respond' %>
+  		<%= javascript_include_tag 'html5shiv-printshiv' %>
+	<![endif]-->
+    
+    </head>
+    <body class="page-index">
+        <div class="container" id="container">
+          <div class="row top">
+            <div class="col-lg-8 col-md-8 col-sm-7 col-left">
+              <div class="name"><a href="index.html">Jeff Scholen</a>
+              </div> 
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-5 col-right">
+              <nav>
+                <ul class="list-inline" id="menu">
+                  <li>
+                      <a href="index.html">work</a>
+                  </li>
+                  <li>
+                      <a href="blog.html">blog</a>
+                  </li>
+                  <li>
+                      <a href="contact.html">contact</a>
+                  </li>
+                  <li>
+                      <a href="contact.html">resume</a>
+                  </li>                  
+                  <li class="last">
+                     <!-- <a href="#"><img class="social" <%=image_tag("icon/icon-facebook.png", :alt => "facebook")%></a> -->
+                      <a href="http://twitter.com/jmscholen"><img class="social" <%=image_tag("icon/icon-twitter.png", :alt => "twitter")%></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>  
+          <%= yield %>             
+        </div>  
+ 		            
+       <!-- <script src="/javascripts/jquery.js"></script>
+        
+        <!-- FASTCLICK -->
+        <!--<script src="assets/javascripts/fastclick.js"></script>
+        <!-- SMOOTH SCROLL -->
+       <!-- <script src="javascripts/jquery.smooth-scroll.min.js"></script>
+        <!-- MIXITUP -->
+      <!-- <script src="javascripts/jquery.mixitup.min.js"></script>
+        
+        <!--<script src="javascripts/main.js"></script> -->
+    </body>
+</html>
+

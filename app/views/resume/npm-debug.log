@@ -1,0 +1,217 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'resume-cli' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose cache add [ 'resume-cli', null ]
+5 verbose cache add name=undefined spec="resume-cli" args=["resume-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'resume-cli',
+6 verbose parsed url   path: 'resume-cli',
+6 verbose parsed url   href: 'resume-cli' }
+7 silly lockFile 71bc606c-resume-cli resume-cli
+8 verbose lock resume-cli /Users/jeffreyscholen/.npm/71bc606c-resume-cli.lock
+9 silly lockFile 71bc606c-resume-cli resume-cli
+10 silly lockFile 71bc606c-resume-cli resume-cli
+11 verbose addNamed [ 'resume-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile e73b2cad-resume-cli resume-cli@
+14 verbose lock resume-cli@ /Users/jeffreyscholen/.npm/e73b2cad-resume-cli.lock
+15 silly addNameRange { name: 'resume-cli', range: '*', hasData: false }
+16 verbose url raw resume-cli
+17 verbose url resolving [ 'https://registry.npmjs.org/', './resume-cli' ]
+18 verbose url resolved https://registry.npmjs.org/resume-cli
+19 info trying registry request attempt 1 at 09:41:10
+20 http GET https://registry.npmjs.org/resume-cli
+21 http 200 https://registry.npmjs.org/resume-cli
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Thu, 10 Jul 2014 13:41:10 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"7CT5AE4ZNWU1LM52X59NWVC3"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=30',
+22 silly registry.get     'content-length': '47847',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-at51-ATL',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1404999669.870503,VS0,VE231',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'resume-cli', range: '*', hasData: true }
+24 silly addNameRange versions [ 'resume-cli',
+24 silly addNameRange   [ '0.0.0',
+24 silly addNameRange     '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.0.6',
+24 silly addNameRange     '0.0.7',
+24 silly addNameRange     '0.0.8',
+24 silly addNameRange     '0.0.9',
+24 silly addNameRange     '0.0.11',
+24 silly addNameRange     '0.0.12',
+24 silly addNameRange     '0.0.13',
+24 silly addNameRange     '0.0.14',
+24 silly addNameRange     '0.0.15',
+24 silly addNameRange     '0.0.16',
+24 silly addNameRange     '0.0.17',
+24 silly addNameRange     '0.0.18',
+24 silly addNameRange     '0.0.19',
+24 silly addNameRange     '0.0.20',
+24 silly addNameRange     '0.0.21',
+24 silly addNameRange     '0.0.22',
+24 silly addNameRange     '0.0.23',
+24 silly addNameRange     '0.0.24',
+24 silly addNameRange     '0.0.25',
+24 silly addNameRange     '0.0.26',
+24 silly addNameRange     '0.0.27',
+24 silly addNameRange     '0.0.28',
+24 silly addNameRange     '0.0.29',
+24 silly addNameRange     '0.0.30',
+24 silly addNameRange     '0.0.31',
+24 silly addNameRange     '0.0.32',
+24 silly addNameRange     '0.0.33',
+24 silly addNameRange     '0.1.33',
+24 silly addNameRange     '0.1.32' ] ]
+25 verbose addNamed [ 'resume-cli', '0.1.32' ]
+26 verbose addNamed [ '0.1.32', '0.1.32' ]
+27 silly lockFile 4d95e2dc-resume-cli-0-1-32 resume-cli@0.1.32
+28 verbose lock resume-cli@0.1.32 /Users/jeffreyscholen/.npm/4d95e2dc-resume-cli-0-1-32.lock
+29 silly lockFile 52655a2e-resume-cli-resume-cli-0-1-32-tgz https://registry.npmjs.org/resume-cli/-/resume-cli-0.1.32.tgz
+30 verbose lock https://registry.npmjs.org/resume-cli/-/resume-cli-0.1.32.tgz /Users/jeffreyscholen/.npm/52655a2e-resume-cli-resume-cli-0-1-32-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/resume-cli/-/resume-cli-0.1.32.tgz',
+31 verbose addRemoteTarball   '4442b8bc7f243f7ca1cfe5432d16a44ac89444ab' ]
+32 info retry fetch attempt 1 at 09:41:10
+33 verbose fetch to= /var/folders/cm/4tywybtj64j2pr4q7vrl7tmm0000gn/T/npm-56489-qF07HkDm/1404999670766-0.8668056619353592/tmp.tgz
+34 http GET https://registry.npmjs.org/resume-cli/-/resume-cli-0.1.32.tgz
+35 http 200 https://registry.npmjs.org/resume-cli/-/resume-cli-0.1.32.tgz
+36 verbose tar unpack /var/folders/cm/4tywybtj64j2pr4q7vrl7tmm0000gn/T/npm-56489-qF07HkDm/1404999670766-0.8668056619353592/tmp.tgz
+37 silly lockFile 282783f7-en-npm-resume-cli-0-1-32-package tar:///Users/jeffreyscholen/.npm/resume-cli/0.1.32/package
+38 verbose lock tar:///Users/jeffreyscholen/.npm/resume-cli/0.1.32/package /Users/jeffreyscholen/.npm/282783f7-en-npm-resume-cli-0-1-32-package.lock
+39 silly lockFile c53933a4-70766-0-8668056619353592-tmp-tgz tar:///var/folders/cm/4tywybtj64j2pr4q7vrl7tmm0000gn/T/npm-56489-qF07HkDm/1404999670766-0.8668056619353592/tmp.tgz
+40 verbose lock tar:///var/folders/cm/4tywybtj64j2pr4q7vrl7tmm0000gn/T/npm-56489-qF07HkDm/1404999670766-0.8668056619353592/tmp.tgz /Users/jeffreyscholen/.npm/c53933a4-70766-0-8668056619353592-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+46 silly gunzTarPerm extractEntry README.md
+47 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+48 silly gunzTarPerm extractEntry index.js
+49 silly gunzTarPerm modified mode [ 'index.js', 509, 493 ]
+50 silly gunzTarPerm extractEntry .travis.yml
+51 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+52 silly gunzTarPerm extractEntry lib/exportResume.js
+53 silly gunzTarPerm modified mode [ 'lib/exportResume.js', 436, 420 ]
+54 silly gunzTarPerm extractEntry lib/index.js
+55 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+56 silly gunzTarPerm extractEntry lib/init.js
+57 silly gunzTarPerm modified mode [ 'lib/init.js', 436, 420 ]
+58 silly gunzTarPerm extractEntry lib/publish.js
+59 silly gunzTarPerm modified mode [ 'lib/publish.js', 436, 420 ]
+60 silly gunzTarPerm extractEntry lib/register.js
+61 silly gunzTarPerm modified mode [ 'lib/register.js', 436, 420 ]
+62 silly gunzTarPerm extractEntry lib/serve.js
+63 silly gunzTarPerm modified mode [ 'lib/serve.js', 436, 420 ]
+64 silly gunzTarPerm extractEntry lib/settings.js
+65 silly gunzTarPerm modified mode [ 'lib/settings.js', 436, 420 ]
+66 silly gunzTarPerm extractEntry lib/test.js
+67 silly gunzTarPerm modified mode [ 'lib/test.js', 436, 420 ]
+68 silly gunzTarPerm extractEntry lib/version.js
+69 silly gunzTarPerm modified mode [ 'lib/version.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry test/index.js
+71 silly gunzTarPerm modified mode [ 'test/index.js', 436, 420 ]
+72 silly lockFile 282783f7-en-npm-resume-cli-0-1-32-package tar:///Users/jeffreyscholen/.npm/resume-cli/0.1.32/package
+73 silly lockFile 282783f7-en-npm-resume-cli-0-1-32-package tar:///Users/jeffreyscholen/.npm/resume-cli/0.1.32/package
+74 silly lockFile c53933a4-70766-0-8668056619353592-tmp-tgz tar:///var/folders/cm/4tywybtj64j2pr4q7vrl7tmm0000gn/T/npm-56489-qF07HkDm/1404999670766-0.8668056619353592/tmp.tgz
+75 silly lockFile c53933a4-70766-0-8668056619353592-tmp-tgz tar:///var/folders/cm/4tywybtj64j2pr4q7vrl7tmm0000gn/T/npm-56489-qF07HkDm/1404999670766-0.8668056619353592/tmp.tgz
+76 silly lockFile 52655a2e-resume-cli-resume-cli-0-1-32-tgz https://registry.npmjs.org/resume-cli/-/resume-cli-0.1.32.tgz
+77 silly lockFile 52655a2e-resume-cli-resume-cli-0-1-32-tgz https://registry.npmjs.org/resume-cli/-/resume-cli-0.1.32.tgz
+78 silly lockFile 4d95e2dc-resume-cli-0-1-32 resume-cli@0.1.32
+79 silly lockFile 4d95e2dc-resume-cli-0-1-32 resume-cli@0.1.32
+80 silly lockFile e73b2cad-resume-cli resume-cli@
+81 silly lockFile e73b2cad-resume-cli resume-cli@
+82 silly resolved [ { name: 'resume-cli',
+82 silly resolved     version: '0.1.32',
+82 silly resolved     description: 'resume-cli ==========',
+82 silly resolved     main: 'index.js',
+82 silly resolved     scripts: { test: 'node ./test/index.js | tap-spec' },
+82 silly resolved     repository:
+82 silly resolved      { type: 'git',
+82 silly resolved        url: 'https://github.com/rolandnsharp/resume-cli.git' },
+82 silly resolved     author: '',
+82 silly resolved     license: 'ISC',
+82 silly resolved     bugs: { url: 'https://github.com/rolandnsharp/resume-cli/issues' },
+82 silly resolved     homepage: 'https://github.com/rolandnsharp/resume-cli',
+82 silly resolved     bin: { resume: 'index.js' },
+82 silly resolved     preferGlobal: true,
+82 silly resolved     dependencies:
+82 silly resolved      { chalk: '^0.4.0',
+82 silly resolved        'cli-spinner': '^0.1.5',
+82 silly resolved        colors: '^0.6.2',
+82 silly resolved        commander: '^2.2.0',
+82 silly resolved        jsonlint: '^1.6.0',
+82 silly resolved        open: '0.0.5',
+82 silly resolved        read: '^1.0.5',
+82 silly resolved        'resume-schema': 'latest',
+82 silly resolved        'resume-to-html': 'latest',
+82 silly resolved        'resume-to-text': 'latest',
+82 silly resolved        superagent: '^0.18.0',
+82 silly resolved        'terminal-menu': '^0.3.2' },
+82 silly resolved     devDependencies: { 'tap-spec': '^0.2.0', tape: '^2.13.3' },
+82 silly resolved     readme: 'JsonResume Command Line Tool\n============================\n\n[![Build Status](https://api.travis-ci.org/jsonresume/resume-cli.svg)](http://travis-ci.org/jsonresume/resume-cli)\n\n### IRC\n\nEveryone working on the early stages of the project should join our Freenode channel\n\n```\n#jsonresume on freenode\n```\n\nYou can use the web client [http://webchat.freenode.net/](http://webchat.freenode.net/)\n\n\n\n#Getting Started\n\n    npm install -g resume-cli\n\n\n\n#Usage\n\n\tresume --help\n\nFor a complete list of options and commands.\n\n\n    resume init\n\nCreates a new resume.json file with a blank schema in your current working directory.    \n\nFrom here you can complete the resume.json in your text editor following the schema available at: [jsonresume.org](http://jsonresume.org/)\n\n  \n    resume test\n\nRuns your resume.json through our schema tests to ensure it complies with the jsonresume standard and tries to identify where any errors may be occurring.\n\n    \n    resume export [myresume.extension]\n\nExports your resume locally in a stylized html, markdown, or pdf format.\n\nTo select one of the available themes use the `--theme <theme name>` flag.\nThemes available are: crisp, traditional, modern, (more to come).\n\nExample: `resume export myresume.html --theme modern`\n  \n    \n    resume register\n\nRegistration is optional.\nTo publish your resume to your account with a custom domain extension at [registry.jsonresume.org](http://registry.jsonresume.org/), you will first need to acquire login credentials. \n\n   \n    resume publish\n\nThis command will guide you through the publish process.\nConsider using the theme flag to style your resume (Defaults to modern).\n\nExample: `resume export --theme traditional`\n\n## Community Projects\n\nAnyone working on projects for jsonresume should submit a pull request and themselves to the list\n\n### LinkedIn Exporters\n* [Web based export](https://github.com/JMPerez/linkedin-to-json-resume) by [José Manuel Pérez](https://twitter.com/jmperezperez)\n* [CLI based export](https://github.com/mblarsen/resume-linkedin) by [Michael Bøcker-Larsen](https://twitter.com/mblarsen)\n',
+82 silly resolved     readmeFilename: 'README.md',
+82 silly resolved     _id: 'resume-cli@0.1.32',
+82 silly resolved     _shasum: '4442b8bc7f243f7ca1cfe5432d16a44ac89444ab',
+82 silly resolved     _from: 'resume-cli@',
+82 silly resolved     _resolved: 'https://registry.npmjs.org/resume-cli/-/resume-cli-0.1.32.tgz' } ]
+83 info install resume-cli@0.1.32 into /usr/local/lib
+84 info installOne resume-cli@0.1.32
+85 info /usr/local/lib/node_modules/resume-cli unbuild
+86 verbose tar unpack /Users/jeffreyscholen/.npm/resume-cli/0.1.32/package.tgz
+87 silly lockFile 1651ed68-ocal-lib-node-modules-resume-cli tar:///usr/local/lib/node_modules/resume-cli
+88 verbose lock tar:///usr/local/lib/node_modules/resume-cli /Users/jeffreyscholen/.npm/1651ed68-ocal-lib-node-modules-resume-cli.lock
+89 silly lockFile 00cc804f-pm-resume-cli-0-1-32-package-tgz tar:///Users/jeffreyscholen/.npm/resume-cli/0.1.32/package.tgz
+90 verbose lock tar:///Users/jeffreyscholen/.npm/resume-cli/0.1.32/package.tgz /Users/jeffreyscholen/.npm/00cc804f-pm-resume-cli-0-1-32-package-tgz.lock
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 error Error: EACCES, mkdir '/usr/local/lib/node_modules/resume-cli'
+92 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/resume-cli']
+92 error   errno: 3,
+92 error   code: 'EACCES',
+92 error   path: '/usr/local/lib/node_modules/resume-cli',
+92 error   fstream_type: 'Directory',
+92 error   fstream_path: '/usr/local/lib/node_modules/resume-cli',
+92 error   fstream_class: 'DirWriter',
+92 error   fstream_stack:
+92 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+92 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+92 error      'Object.oncomplete (fs.js:107:15)' ] }
+93 error Please try running this command again as root/Administrator.
+94 error System Darwin 13.1.0
+95 error command "node" "/usr/local/bin/npm" "install" "-g" "resume-cli"
+96 error cwd /Users/jeffreyscholen/Documents/App Projects/my_portfolio_app/app/views/resume
+97 error node -v v0.10.28
+98 error npm -v 1.4.9
+99 error path /usr/local/lib/node_modules/resume-cli
+100 error fstream_path /usr/local/lib/node_modules/resume-cli
+101 error fstream_type Directory
+102 error fstream_class DirWriter
+103 error code EACCES
+104 error errno 3
+105 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/resume-cli'
+106 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+106 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+106 error fstream_stack Object.oncomplete (fs.js:107:15)
+107 verbose exit [ 3, true ]
