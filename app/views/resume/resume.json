@@ -15,11 +15,12 @@
       "state": "Georgia"
     },
     "websites": {
-      "blog": "http://jeffscholen.com"
+      "portfolio": "jeffscholen.com"
     },
     "profiles": {
       "github": "jmscholen",
       "twitter": "jmscholen"
+
     }
   },
   "experience": [
@@ -93,6 +94,14 @@
 
   "education": [
     {
+      "institution": "The Iron Yard",
+      "startDate": "2014",
+      "endDate": "2014",
+      "area": "Rails Engineering",
+      "studyType": "Ruby on Rails"
+
+    },     
+    {
       "institution": "Southern Polytechnic State University",
       "startDate": "1994",
       "endDate": "1996",
@@ -100,6 +109,7 @@
       "studyType": "Bachelor of Science"
 
     }
+   
   ],
 
   "skills": [
@@ -120,7 +130,6 @@
       "name": "Interpersonal",
       "level": "Master",
       "keywords": [
-        "",
         "Optimistic",
         "Calm",
         "Reasonable",
