@@ -32,3 +32,13 @@ $(".item-choice a").click(function(e){
    e.preventDefault();
 });
 $('#Grid').mixitup();
+
+// active class to nav menu
+$(".nav li").click(function() {
+    $(".nav li").removeClass('active');
+    setTimeout(function() {
+        var page = $.QueryString("page");
+        $(".nav li:eq(" + page + ")").addClass("active");
+    }, 300);
+
+});
