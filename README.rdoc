@@ -1,28 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my portfolio website. It covers my recent work, resume and contact info. It is built on Rails 4 and Ruby 2, deployed to heroku.
 
-Things you may want to cover:
+Things you should know:
 
-* Ruby version
+* The bootstrap theme was purchased from wrapbootstrap and reconfigured by me to work with the rails framework. It is a single user license. Please do not copy the theme. 
 
-* System dependencies
+* The site uses the bootstrap-sass gem in addition to others.
 
-* Configuration
+* I will be adding a blog in the near future.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Thanks for visiting. 
 
 
-Please feel free to use a different markup language if you do not plan to run
+
 <tt>rake doc:app</tt>.
