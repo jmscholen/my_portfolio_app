@@ -35,6 +35,16 @@
   ],
   "work": [
     {
+      "company": "Vinsnap",
+      "position": "Software Developer-Contract",
+      "website": "http://vinsanp.com",
+      "startDate": "2012-06-21",
+      "endDate": "",
+      "summary": "Technical Lead working with the founders to develop their next generation platform for providing automotive owners with realtime data analytics about their vehicles. "
+  
+    },
+
+    {
       "company": "Remington Medical Inc.",
       "position": "Engineering Project Manager",
       "website": "http://remingtonmedical.com",
