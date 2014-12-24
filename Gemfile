@@ -36,6 +36,8 @@ gem 'spring',        group: :development
 gem 'bcrypt', '~> 3.1.7'
 gem 'devise' # user authorization 
 gem 'pundit' # user authentication
+gem 'wicked_pdf' #pdf creator
+gem 'wkhtmltopdf-binary' #binaries needed for wicked_pdf
 
 group :development, :test do
     gem 'railroady'
@@ -53,4 +55,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'newrelic_rpm'
+
 
