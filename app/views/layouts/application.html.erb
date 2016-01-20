@@ -8,8 +8,10 @@
     <!-- Bootstrap -->
 	<!-- <link href="stylesheet/bootstrap.min.css" rel="stylesheet" media="screen">
     <!-- <link href="css/style.css" rel="stylesheet" media="screen"> -->
+    <%= javascript_include_tag "http://code.jquery.com/jquery-1.10.0.min.js" %>
+    <%= javascript_include_tag "http://code.jquery.com/ui/1.10.3/jquery-ui.min.js" %>    
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false %>
- 	<%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
+ 	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
   	<%= csrf_meta_tags %>
 
     <script>
@@ -48,7 +50,7 @@
                       <a href="/contacts">contact</a>
                   </li>
                   <li>
-                      <a href="/resume">resume</a>
+                      <a href="/resume">blog</a>
                   </li>                  
                   <li class="last">
                     <a href="http://www.linkedin.com/in/jeffscholen/" target="_blank"><img class="social" <%=image_tag("icon/icon-linkedin.png", :alt => "linkedin")%></a>
