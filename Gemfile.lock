@@ -168,7 +168,7 @@ GEM
     wicked_pdf (0.11.0)
       rails
     wkhtmltopdf-binary (0.9.9.3)
-    yard (0.8.7.4)
+    yard (0.9.24)
 
 PLATFORMS
   ruby
